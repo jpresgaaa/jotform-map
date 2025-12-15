@@ -22,11 +22,16 @@
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-      const map = L.map("map").setView([14.5995, 120.9842], 13);
+      const map = L.map("map").setView(
+        [6.11612094283465, 125.17037641895097],
+        13
+      );
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
         map
       );
-      L.marker([14.5995, 120.9842], { draggable: true }).addTo(map);
+      L.marker([6.11612094283465, 125.17037641895097], {
+        draggable: true,
+      }).addTo(map);
     </script>
   </body>
 </html>

@@ -23,13 +23,15 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
       const map = L.map("map").setView(
-        [6.114641962103078, 125.17061422816538],
-        13
+        [6.500924451126485, 124.84465483866518],
+        2
       );
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
         map
       );
-      L.marker([14.5995, 120.9842], { draggable: true }).addTo(map);
+      L.marker([6.500924451126485, 124.84465483866518], {
+        draggable: true,
+      }).addTo(map);
     </script>
   </body>
 </html>
